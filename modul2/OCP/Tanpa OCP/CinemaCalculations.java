@@ -1,4 +1,6 @@
+
 class CinemaCalculations {
+
     public Double calculateAdminFee(Cinema cinema) {
         if (cinema instanceof StandardCinema) {
             return ((StandardCinema) cinema).price * 10 / 100;
