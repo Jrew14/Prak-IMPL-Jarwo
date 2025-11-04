@@ -1,0 +1,5 @@
+
+interface DoorInterface {
+
+    void openDoors();
+}
